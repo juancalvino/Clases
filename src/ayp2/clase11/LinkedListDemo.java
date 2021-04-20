@@ -23,6 +23,20 @@ public class LinkedListDemo {
 		}
 		System.out.println("Finished deletions");
 		lista.printList();
+
+		OrderedLinkedList<Integer> lista2 = new OrderedLinkedList<Integer>();
+		System.out.println("Lista ordenada\n\n");
+		lista2.insert(10);
+		lista2.insert(-1);
+		lista2.insert(100);
+		lista2.insert(1);
+		lista2.insert(10);
+		
+		lista2.printList();
+	
 	}
 
+	
+	
+	
 }
