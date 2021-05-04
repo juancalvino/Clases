@@ -22,7 +22,7 @@ public class BinaryNode<T> {
 		if (left != null)
 			size += left.size();
 		if (right != null)
-			size += left.size();
+			size += right.size();
 		return size;
 	}
 
@@ -32,7 +32,7 @@ public class BinaryNode<T> {
 		if (left != null)
 			leftHeight = left.height();
 		if (right != null)
-			rightHeight = left.height();
+			rightHeight = right.height();
 		return 1 + Math.max(leftHeight, rightHeight);
 	}
 
