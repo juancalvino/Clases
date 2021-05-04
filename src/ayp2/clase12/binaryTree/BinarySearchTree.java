@@ -230,7 +230,9 @@ package ayp2.clase12.binaryTree;
 	        return null;         // Not found
 	    }
 
-	     
+	    public InOrderIterator inorderiterator() {
+	    	return new InOrderIterator<AnyType>(this.root);
+	    }
 
 	        // Test program
 	    public static void main( String [ ] args )
