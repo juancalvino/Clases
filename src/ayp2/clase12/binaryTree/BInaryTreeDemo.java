@@ -1,6 +1,6 @@
 package ayp2.clase12.binaryTree;
 
-public class BInaryTreeDemo {
+public class BinaryTreeDemo {
 
 	public static void main(String[] args) {
 		BinaryTree<Integer> t1 = new BinaryTree<Integer>(1);
