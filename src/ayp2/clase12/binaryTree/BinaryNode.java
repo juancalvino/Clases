@@ -1,14 +1,20 @@
 package ayp2.clase12.binaryTree;
 
 public class BinaryNode<T> {
-	private T element;
-	private BinaryNode<T> left;
-	private BinaryNode<T> right;
+	protected T element;
+	protected BinaryNode<T> left;
+	protected BinaryNode<T> right;
 
 	public BinaryNode(T element, BinaryNode<T> left, BinaryNode<T> right) {
 		this.element = element;
 		this.left = left;
 		this.right = right;
+	}
+
+	public BinaryNode(T x) {
+		this.element = x;
+		this.left = null;
+		this.right = null;
 	}
 
 	public int size() {
