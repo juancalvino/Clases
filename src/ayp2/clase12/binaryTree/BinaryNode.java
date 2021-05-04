@@ -1,9 +1,9 @@
 package ayp2.clase12.binaryTree;
 
 public class BinaryNode<T> {
-	protected T element;
-	protected BinaryNode<T> left;
-	protected BinaryNode<T> right;
+	private T element;
+	private BinaryNode<T> left;
+	private BinaryNode<T> right;
 
 	public BinaryNode(T element, BinaryNode<T> left, BinaryNode<T> right) {
 		this.element = element;
