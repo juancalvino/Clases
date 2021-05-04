@@ -111,4 +111,8 @@ public class BinarySearchTree<T extends Comparable<? super T>> {
 	private T elementAt(BinaryNode<T> node) {
 		return node == null ? null : node.element;
 	}
+	
+	public InOrderIterator<T> iterator(){
+		return new InOrderIterator<T>(this.root);
+	}
 }

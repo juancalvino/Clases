@@ -1,5 +1,7 @@
 package ayp2.clase12.binarySearchTree;
 
+import java.util.Iterator;
+
 public class BinarySearchTreeDemo {
 
 	public static void main(String[] args) {
@@ -25,5 +27,7 @@ public class BinarySearchTreeDemo {
 		for (int i = 1; i < NUMS; i += 2)
 			if (t.find(i) != null)
 				System.out.println("Find error2!");
+		
+		
 	}
 }
